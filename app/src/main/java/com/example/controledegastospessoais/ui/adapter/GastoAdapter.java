@@ -21,8 +21,13 @@ public class GastoAdapter extends RecyclerView.Adapter<GastoAdapter.ViewHolder> 
     private GastosItemClickListener gastosItemClickListener;
     private List<Gastos> gastos;
 
-    public GastoAdapter(List<Gastos> gastos) {
+    public GastoAdapter(List<Gastos> gastos, Context context) {
         this.gastos = gastos;
+        this.context = context;
+    }
+
+    public void setOnItemClickListener(GastosItemClickListener gastosItemClickListener) {
+        this.gastosItemClickListener = gastosItemClickListener;
     }
 
     @NonNull
