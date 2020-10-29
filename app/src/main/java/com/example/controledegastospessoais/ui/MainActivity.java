@@ -1,8 +1,10 @@
-package com.example.controledegastospessoais;
+package com.example.controledegastospessoais.ui;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.example.controledegastospessoais.R;
 
 public class MainActivity extends AppCompatActivity {
 
